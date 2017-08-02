@@ -1,8 +1,9 @@
 var path = require("path");
+var webpack = require('webpack');
 
 module.exports = {
   context: __dirname,
-  entry: "./lib/entry.js",
+  entry: "./lib/entry.jsx",
   output: {
     path: path.resolve(__dirname, 'app', 'assets', 'javascripts'),
     filename: "bundle.js"
