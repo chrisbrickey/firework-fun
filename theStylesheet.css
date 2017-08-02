@@ -1,0 +1,135 @@
+* {
+  /*font-family: 'Montserrat', sans-serif;*/
+  /*font-family: 'Ubuntu', sans-serif;*/
+  font-family: 'Kanit', sans-serif;
+  /*font-family: 'Covered By Your Grace', cursive;*/
+  /*font-family: 'Bowlby One SC', cursive;*/
+  /*font-family: 'Kanit', sans-serif;*/
+  /*font-family: 'Courgette', cursive;*/
+  /*font-family: 'Permanent Marker', cursive;*/
+  /*font-family: 'Raleway', sans-serif;*/
+ }
+
+ .outershell {
+  width: 98vw;
+  height: 98vh;
+  display: flex;
+  background-image: url('https://res.cloudinary.com/dckkkjkuz/image/upload/v1501524783/fireworks/blue-starry-night.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.innershell {
+  /*background-color: orange;*/
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  /*margin: 5px;
+  padding: 5px;*/
+}
+
+.title {
+  position: absolute;
+  top: 10px;
+  left: 20px;
+  /*background-color: black;*/
+    font-family: 'Monoton', 'Kanit', sans-serif;
+  font-size: 50px;
+  letter-spacing: 3px;
+  color: white;
+  /*font-weight: bold;*/
+ }
+
+/*.filler {
+  background-color: grey;
+  flex: 1;
+  margin: 5px;
+  padding: 5px;
+}*/
+
+.main {
+  /*background-color: blue;*/
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  /*justify-content: bottom;
+  align-items: bottom;*/
+  /*margin: 5px;
+  padding: 5px;*/
+}
+
+.canvas-container {
+  flex: 1;
+  /*background-color: lightblue;*/
+  display: flex;
+  /*margin: 5px;*/
+  /*padding: 5px;*/
+}
+
+#myCanvas {
+  border: 2px;
+  border-color: white;
+  border-style: dashed;
+  width: 100%;
+  height: 100%;
+}
+
+.control-container {
+  /*background-color: yellow;*/
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  /*align-items: center;*/
+  /*margin: 0px 5px 0px 5px;*/
+  padding: 0px;
+}
+
+.spacer {
+  /*background-color: lightgreen;*/
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  /*margin: 5px;*/
+  padding: 5px;
+}
+
+
+.button {
+  height: 30px;
+  width: 75px;
+  background-color: white;
+  color: black;
+  /*white-space: nowrap;*/
+  margin: 5px;
+  padding: 2px;
+  cursor: pointer;
+  font-size: 12px;
+  line-height: 11px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  border-radius: 3px;
+}
+
+#how {
+  padding-left: 15px;
+  margin-right: 50px;
+}
+
+#F1 {
+  width: 50px;
+}
+
+#play-pause {
+
+}
+
+#reset {
+
+}
+
+#demo {
+
+}
