@@ -129,22 +129,27 @@
 
 #F1   {
   width: 40px;
+  background-color: rgb(255, 102, 1);
 }
 
 #F2   {
   width: 40px;
+  background-color: rgb(255, 255, 1);
 }
 
 #F3   {
   width: 40px;
+  background-color: rgb(1, 255, 1);
 }
 
 #F4   {
   width: 40px;
+  background-color: rgb(1, 102, 255);
 }
 
 #F5   {
   width: 40px;
+  background-color: rgb(255, 51, 153);
 }
 
 #play-pause {
