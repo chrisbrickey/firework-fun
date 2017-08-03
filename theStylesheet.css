@@ -122,8 +122,24 @@
   margin-right: 50px;
 }
 
-#F1 {
-  width: 50px;
+#F1   {
+  width: 40px;
+}
+
+#F2   {
+  width: 40px;
+}
+
+#F3   {
+  width: 40px;
+}
+
+#F4   {
+  width: 40px;
+}
+
+#F5   {
+  width: 40px;
 }
 
 #play-pause {
