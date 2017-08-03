@@ -148,7 +148,8 @@
 }
 
 #play-pause {
-
+  text-align: center;
+  width: 100px;
 }
 
 #reset {
