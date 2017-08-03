@@ -105,6 +105,7 @@
   background-color: white;
   color: black;
   /*white-space: nowrap;*/
+  transition: background-color 1.0s ease;
   margin: 5px;
   padding: 2px;
   cursor: pointer;
@@ -115,6 +116,10 @@
   align-items: center;
   font-weight: bold;
   border-radius: 3px;
+}
+
+.button:active {
+  background-color: black;
 }
 
 #how {
