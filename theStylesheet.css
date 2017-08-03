@@ -125,6 +125,7 @@
 #how {
   padding-left: 15px;
   margin-right: 50px;
+  background-color: rgba(255, 255, 255, 0.2);
 }
 
 #F1   {
@@ -154,12 +155,17 @@
 
 #F6   {
   width: 40px;
-  background-color: grey;
+  height: 21px;
+  background-color: white;
+  border: 5px;
+  border-style: solid;
+  border-color: grey;
 }
 
 #play-pause {
   text-align: center;
   width: 100px;
+  background-color: rgba(255, 255, 255, 0.2);
 }
 
 #reset {
