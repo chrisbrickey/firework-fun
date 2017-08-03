@@ -11,7 +11,7 @@ In Custom Fireworks, users will be able to:
 - [ ] Select the color/shape of individual fireworks
 - [ ] Select the location at which fireworks will be deployed
 - [ ] Allow multiple fireworks to be fired at the same time (e.g. finale where every firework goes off at once)
-- [ ] Hear (and mute) the fireworks show
+- [ ] Hear a firework
 - [ ] Start, pause, and reset the display
 
 
