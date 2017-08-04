@@ -198,6 +198,7 @@
 
 .button:active {
   background-color: black;
+  height: 19px;
 }
 
 #F1   {
@@ -237,6 +238,11 @@
   /*border-color: grey;*/
 }
 
+#F1:active, #F2:active, #F3:active, #F4:active, #F5:active, #F6:active {
+  width:39px;
+  margin-right: 6px; 
+}
+
 #inner {
   display: flex;
   padding: 4px;
@@ -262,4 +268,9 @@
 
 #demo {
   width: 95px;
+}
+
+#play-pause:active, #reset:active, #demo:active {
+  width:94px;
+  margin-right: 6px;
 }
