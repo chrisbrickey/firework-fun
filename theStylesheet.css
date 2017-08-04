@@ -191,7 +191,7 @@
   width: 40px;
   background-color: rgb(255, 255, 1);
   display: flex;
-  padding: 3px;
+  padding: 2px;
   /*height: 21px;
   background-color: white;
   border: 5px;
@@ -201,7 +201,7 @@
 
 #inner {
   display: flex;
-  padding: 5px;
+  padding: 4px;
   background-color: rgb(255, 51, 153);
   border-radius: 3px;
 }
