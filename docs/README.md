@@ -1,30 +1,31 @@
-## Custom Fireworks
+## Fireworks Show
 
 ### Background
 
-Custom Fireworks is an activity that allows users to setup their own fireworks show by choosing the location, color/shape and relative timing of fireworks. The setting is an urban skyline at night.
+Fireworks Show is an activity that allows users to setup their own fireworks show by choosing the location, color and relative timing of fireworks. The setting is a night sky.
 
 ### Functionality & MVP  
 
-In Custom Fireworks, users will be able to:
+In Fireworks Show, users will be able to:
 
-- [ ] Select the color/shape of individual fireworks
+- [ ] Select the color of individual fireworks
 - [ ] Select the location at which fireworks will be deployed
-- [ ] Allow multiple fireworks to be fired at the same time (e.g. finale where every firework goes off at once)
 - [ ] Hear (and mute) a firework
-- [ ] Start, pause, and reset the display
+- [ ] Start and reset the display
 
 
 In addition, this project will include:
 
-- [ ] An About modal describing how to setup a custom fireworks show
+- [ ] Instructions describing how to setup a custom fireworks show
 - [ ] A production Readme
 
 ### Wireframes
 
-When the user first opens the app, a modal will overlay the main screen showing the user how to build a fireworks display. This main page of the app will include user controls on the left and a display/viewer on the right. From the main page, the user can access this modal again and watch a demo display.  
+Original plans included a modal to overlay the main screen showing the user how to build a fireworks display, but I made the game more intuitive and condensed instruction into the labels for the buttons to allow users to start doing the activity with less reading or preparation.
 
-- [View Wireframes][wireframes]
+The single page of the app includes controls for selecting different fireworks, playing a customer show, clearing a custom show, playing a demo show, and muting/unmuting sound.
+
+- [View Original Wireframes][wireframes]
 
 [wireframes]: wireframes
 
@@ -78,6 +79,6 @@ In addition to the webpack entry file, there will be three scripts involved in t
 
 ### Bonus features
 
-- [ ] Add speed controller to speed up and slow down the fireworks display (set up as input to setInterval)
+- [ ] Add speed controller to speed up and slow down the fireworks display
 - [ ] Select the order in which fireworks are deployed
-- [ ] Enable users to build their own fireworks by designing color, shape, explosion trajectory, sound, etc.
+- [ ] Enable users to build their own fireworks by designing color, shape, explosion trajectory
