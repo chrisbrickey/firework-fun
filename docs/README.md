@@ -21,7 +21,7 @@ In addition, this project will include:
 
 ### Wireframes
 
-Original plans included a modal to overlay the main screen showing the user how to build a fireworks display, but I made the game more intuitive and condensed instruction into the labels for the buttons to allow users to start doing the activity with less reading or preparation.
+Original plans included a modal to overlay the main screen showing the user how to build a fireworks display. I made the game more intuitive by condensing instruction into the labels for the buttons. This enables users to start the activity with minimal reading.
 
 The single page of the app includes controls for selecting different fireworks, playing a customer show, clearing a custom show, playing a demo show, and muting/unmuting sound.
 
