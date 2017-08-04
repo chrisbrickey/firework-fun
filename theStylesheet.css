@@ -82,20 +82,63 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  /*align-items: center;*/
+  /*align-items: bottom;*/
   /*margin: 0px 5px 0px 5px;*/
   padding: 0px;
   z-index: 9000;
 }
 
-.spacer {
+.leftspacer {
+  /*background-color: lightgreen;*/
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+}
+
+.create-text {
+  /*background-color: red;*/
+  margin: 0px 5px 0px 5px;
+  color: white;
+  font-size: 90%;
+  letter-spacing: 2px;
+
+}
+
+.creators {
+  /*background-color: pink;*/
+  display: flex;
+  flex-direction: row;
+}
+
+.centerspacer {
   /*background-color: lightgreen;*/
   display: flex;
   flex-direction: row;
+  padding: 5px;
+}
+
+.rightspacer {
+  /*background-color: lightgreen;*/
+  display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  /*margin: 5px;*/
   padding: 5px;
+}
+
+.controllers {
+  /*background-color: pink;*/
+  display: flex;
+  flex-direction: row;
+}
+
+.control-text {
+  /*background-color: red;*/
+  color: white;
+  font-size: 90%;
+  letter-spacing: 2px;
 }
 
 
@@ -116,16 +159,11 @@
   align-items: center;
   font-weight: bold;
   border-radius: 3px;
+  text-align: center;
 }
 
 .button:active {
   background-color: black;
-}
-
-#how {
-  padding-left: 15px;
-  margin-right: 50px;
-  background-color: rgba(255, 255, 255, 0.2);
 }
 
 #F1   {
@@ -162,16 +200,7 @@
   border-color: grey;
 }
 
-#play-pause {
-  text-align: center;
-  width: 100px;
-  /*background-color: rgba(255, 255, 255, 0.2);*/
-}
 
-#reset {
-
-}
-
-#demo {
-
+#how {
+  background-color: rgba(255, 255, 255, 0.2);
 }
