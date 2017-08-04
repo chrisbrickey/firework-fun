@@ -11,7 +11,7 @@ In Custom Fireworks, users will be able to:
 - [ ] Select the color/shape of individual fireworks
 - [ ] Select the location at which fireworks will be deployed
 - [ ] Allow multiple fireworks to be fired at the same time (e.g. finale where every firework goes off at once)
-- [ ] Hear a firework
+- [ ] Hear (and mute) a firework
 - [ ] Start, pause, and reset the display
 
 
@@ -31,7 +31,7 @@ When the user first opens the app, a modal will overlay the main screen showing 
 
 ### Architecture and Technologies
 
-This project will be implemented with the following technologies:
+In this project I planned to implement the following technologies, but later made the design decision to write the entire app in vanilla JavaScript:
 
 - Vanilla JavaScript for overall structure and game logic
 - `Easel.js` with `HTML5 Canvas` for DOM manipulation and rendering
