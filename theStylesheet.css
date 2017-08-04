@@ -22,21 +22,18 @@
   position: absolute;
   top: 10px;
   left: 20px;
-  /*background-color: black;*/
   font-family: 'Monoton', 'Kanit', sans-serif;
   font-size: 50px;
   letter-spacing: 3px;
   color: white;
-  /*font-weight: bold;*/
   cursor: default;
   z-index: 100;
  }
 
  .muting {
    position: absolute;
-   top: 20px;
-   right: 20px;
-   transition: background-color 1.0s ease;
+   top: 25px;
+   right: 25px;
    cursor: pointer;
    z-index: 300;
  }
@@ -44,15 +41,6 @@
  #mute-icon {
    width: 40px;
    height: 40px;
-   /*transition: background-color 1.0s ease;
-   cursor: pointer;*/
- }
-
- #unmute-icon {
-   width: 40px;
-   height: 40px;
-   /*transition: background-color 1.0s ease;
-   cursor: pointer;*/
  }
 
  #mute-icon:active {
@@ -61,45 +49,20 @@
  }
 
 
- #unmute-icon:active {
-   width: 39px;
-   height: 39px;
- }
-
-
-
-
-
-/*.filler {
-  background-color: grey;
-  flex: 1;
-  margin: 5px;
-  padding: 5px;
-}*/
-
 .main {
   /*background-color: blue;*/
   display: flex;
   flex: 1;
   flex-direction: column;
-  /*justify-content: bottom;
-  align-items: bottom;*/
-  /*margin: 5px;
-  padding: 5px;*/
 }
 
 .canvas-container {
   flex: 1;
   /*background-color: lightblue;*/
   display: flex;
-  /*margin: 5px;*/
-  /*padding: 5px;*/
 }
 
 #myCanvas {
-  /*border-width: 2px;
-  border-color: white;
-  border-style: dashed;*/
   z-index: 200;
 }
 
@@ -108,7 +71,6 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  /*align-items: bottom;*/
   margin: 0px 5px 5px 5px;
   padding: 0px;
   z-index: 9000;
@@ -181,7 +143,6 @@
   width: 75px;
   background-color: white;
   color: black;
-  /*white-space: nowrap;*/
   transition: background-color 1.0s ease;
   margin: 5px;
   padding: 2px;
@@ -231,11 +192,6 @@
   background-color: rgb(255, 255, 1);
   display: flex;
   padding: 2px;
-  /*height: 21px;
-  background-color: white;
-  border: 5px;
-  border-style: solid;*/
-  /*border-color: grey;*/
 }
 
 #F1:active, #F2:active, #F3:active, #F4:active, #F5:active, #F6:active {
