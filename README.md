@@ -79,7 +79,7 @@ Fireworks Show is a single-page web application that mimics physics with low rel
 ## Project Design
 
 - [View Wireframes][wireframes]
-- [Production README][READMEdev]
+- [Development README][READMEdev]
 
 [wireframes]: docs/wireframes
 [READMEdev]: docs/README.md
