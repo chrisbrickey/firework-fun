@@ -4,8 +4,13 @@
 
 ## Features Highlight
 
+#### Demo Show
+Users can play a pre-designed show with a single click.
+
+![multi](https://res.cloudinary.com/dckkkjkuz/image/upload/v1501872244/fireworks/mutli1_crop.png)
+
 #### Custom Algorithm Trajectories
-A graceful modal overlays each users profile page when one of their images is selected.  It shows details of the post and allows the creator of a post to edit the details with instant update across the application.
+I used trigonometry to direct the trajectories of each pellet over hundreds of iterations to create custom animations with vanilla JavaScript.
 
 ```
 let fade = 0;
@@ -53,20 +58,18 @@ let z = setInterval(function(){
 }
 ```
 
+#### Intuitive Instructions
+Original development plans included a tutorial, but I made the game more intuitive by condensing instruction into the labels for the buttons. This enables users to start the activity with minimal reading.
+
+![instructions](https://res.cloudinary.com/dckkkjkuz/image/upload/v1501871351/fireworks/instructions.png)
+
+
 #### Firework Placement
-The Like button toggles to indicate whether the current user has or has not liked a particular post and the sum total likes for each post updates live.  Comments can be added on-the-spot by simply typing and returning. They are instantly viewable by all users.  Post and delete buttons are also made available to the user for further guidance and ease-of-use.  Likes and comments are protected such that only the user initiating either a like or comment can reverse/delete it.
+Users can see the location and color of each firework placed (before the show plays) to aid the overall design.
 
 ![placement](https://res.cloudinary.com/dckkkjkuz/image/upload/v1501871093/fireworks/placement.png)
 
-#### Demo Show
-Users can upload with ease with drag/drop functionality.  They can also double-click in the same spot if they prefer to select a file from their directories.
 
-![Upload](https://res.cloudinary.com/dckkkjkuz/image/upload/v1501282875/drag_drop_ilad0m.png)
-
-#### Intuitive Instructions
-Original development plans included a tutorial, but I made the game more intuitive by condensing instruction into the labels for the buttons to allow users to start doing the activity with less reading.
-
-![instructions](https://res.cloudinary.com/dckkkjkuz/image/upload/v1501871351/fireworks/instructions.png)
 
 ## Technology
 
