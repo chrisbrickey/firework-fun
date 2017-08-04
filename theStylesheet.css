@@ -34,8 +34,8 @@
 
  .muting {
    position: absolute;
-   top: 40px;
-   right: 40px;
+   top: 20px;
+   right: 20px;
    transition: background-color 1.0s ease;
    cursor: pointer;
    z-index: 300;
@@ -240,7 +240,7 @@
 
 #F1:active, #F2:active, #F3:active, #F4:active, #F5:active, #F6:active {
   width:39px;
-  margin-right: 6px; 
+  margin-right: 6px;
 }
 
 #inner {
