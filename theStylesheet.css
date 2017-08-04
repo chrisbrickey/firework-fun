@@ -32,6 +32,44 @@
   z-index: 100;
  }
 
+ .muting {
+   position: absolute;
+   top: 40px;
+   right: 40px;
+   transition: background-color 1.0s ease;
+   cursor: pointer;
+   z-index: 300;
+ }
+
+ #mute-icon {
+   width: 40px;
+   height: 40px;
+   /*transition: background-color 1.0s ease;
+   cursor: pointer;*/
+ }
+
+ #unmute-icon {
+   width: 40px;
+   height: 40px;
+   /*transition: background-color 1.0s ease;
+   cursor: pointer;*/
+ }
+
+ #mute-icon:active {
+   width: 39px;
+   height: 39px;
+ }
+
+
+ #unmute-icon:active {
+   width: 39px;
+   height: 39px;
+ }
+
+
+
+
+
 /*.filler {
   background-color: grey;
   flex: 1;
