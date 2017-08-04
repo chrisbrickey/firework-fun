@@ -7,12 +7,56 @@
 #### Custom Algorithm Trajectories
 A graceful modal overlays each users profile page when one of their images is selected.  It shows details of the post and allows the creator of a post to edit the details with instant update across the application.
 
-![Detail](https://res.cloudinary.com/dckkkjkuz/image/upload/v1501280102/view_edit_cxeurx.png)
+```
+let fade = 0;
+let magnitude = 100;
+let gravity = -20;
+let counter = 0;
+let numIterations = 300;
+
+
+let z = setInterval(function(){
+
+    fireContext.fillStyle = "rgba(0, 0, 0, 0.3)";
+    fireContext.clearRect(0, 0, fireCanvas.width, fireCanvas.height);
+
+    for(let i = 0; i < x.pelletArray.length; i++) {
+
+        let pelote = x.pelletArray[i];
+        let newAlpha = pelote.alpha - fade;
+
+        let newX = pelote.x;
+        let newY = pelote.y;
+        let changeX = 0;
+        let changeY = 0;
+
+        let p = Math.random();
+        let theta = (2 * Math.PI * p);
+        changeX = magnitude * Math.cos(theta) * Math.random();
+        changeY = magnitude * Math.sin(theta) * Math.random();
+
+```
+...
+```
+    magnitude += 5;
+    gravity += 3;
+    counter++;
+    if (fade < 1){
+      fade += (0.02);
+    }
+
+    if(counter === numIterations) {
+        clearInterval(z);
+    }
+}, 20);
+
+}
+```
 
 #### Firework Placement
 The Like button toggles to indicate whether the current user has or has not liked a particular post and the sum total likes for each post updates live.  Comments can be added on-the-spot by simply typing and returning. They are instantly viewable by all users.  Post and delete buttons are also made available to the user for further guidance and ease-of-use.  Likes and comments are protected such that only the user initiating either a like or comment can reverse/delete it.
 
-![Likes_Comments](https://res.cloudinary.com/dckkkjkuz/image/upload/v1501280092/likes_comments_jtghyt.png)
+![placement](https://res.cloudinary.com/dckkkjkuz/image/upload/v1501871093/fireworks/placement.png)
 
 #### Demo Show
 Users can upload with ease with drag/drop functionality.  They can also double-click in the same spot if they prefer to select a file from their directories.
@@ -20,10 +64,9 @@ Users can upload with ease with drag/drop functionality.  They can also double-c
 ![Upload](https://res.cloudinary.com/dckkkjkuz/image/upload/v1501282875/drag_drop_ilad0m.png)
 
 #### Intuitive Instructions
-Original development plans included a tutorial, but
-Users are greeted with an intuitive login page that guides them to successful login with informative and friendly error messages.
+Original development plans included a tutorial, but I made the game more intuitive by condensing instruction into the labels for the buttons to allow users to start doing the activity with less reading.
 
-![Login](https://res.cloudinary.com/dckkkjkuz/image/upload/v1501280097/login_gt0iav.png)
+![instructions](https://res.cloudinary.com/dckkkjkuz/image/upload/v1501871351/fireworks/instructions.png)
 
 ## Technology
 
