@@ -1,12 +1,17 @@
-## Fireworks Show
+## Firework-Fun
+
+### How to run this program
+- Open root directory in the terminal and type the command: `webpack --watch`
+- To run locally and view immediate changes: Drag/drop the file called `index3.html` into the browser
+- To view hosted version:  https://chrisbrickey.github.io/custom-fireworks3/index3.html
 
 ### Background
 
-Fireworks Show is an activity that allows users to setup their own fireworks show by choosing the location, color and relative timing of fireworks. The setting is a night sky.
+Firework-Fun is an activity that allows users to setup their own fireworks show by choosing the location, color and relative timing of fireworks. The setting is a night sky.
 
 ### Functionality & MVP  
 
-In Fireworks Show, users will be able to:
+In Firework-Fun, users will be able to:
 
 - [ ] Select the color of individual fireworks
 - [ ] Select the location at which fireworks will be deployed
