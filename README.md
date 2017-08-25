@@ -9,7 +9,7 @@ View hosted version at [www.firework-fun.com](www.firework-fun.com)
 #### Demo Show
 Users can play a pre-designed show with a single click.
 
-![multi](https://res.cloudinary.com/dckkkjkuz/image/upload/v1503687672/fireworks/firework_starburst_cropped.png)
+![multi](https://res.cloudinary.com/dckkkjkuz/image/upload/v1503688537/fireworks/firework_starburst_cropped.jpg)
 
 #### Custom Algorithm Trajectories
 I used trigonometry to direct the trajectories of each pellet over hundreds of iterations to create custom animations with vanilla JavaScript.
