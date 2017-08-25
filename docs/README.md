@@ -4,7 +4,7 @@
 - Open root directory in the terminal and type the command: `webpack --watch`
 - To run locally and view immediate changes: Drag/drop the file called `index3.html` into the browser
 - To view hosted version via github pages:  https://chrisbrickey.github.io/custom-fireworks3/index3.html
-- To view hosted version via custom domain: http://www.firework-fun.com/index3.html
+- To view hosted version via custom domain: http://www.firework-fun.com
 
 ### Background
 
