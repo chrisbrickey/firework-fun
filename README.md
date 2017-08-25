@@ -9,14 +9,14 @@ View hosted version at [www.firework-fun.com](www.firework-fun.com)
 #### Demo Show
 Users can play a pre-designed show with a single click.
 
-![multi](https://res.cloudinary.com/dckkkjkuz/image/upload/v1501872244/fireworks/mutli1_crop.png)
+![multi](https://res.cloudinary.com/dckkkjkuz/image/upload/v1503687672/fireworks/firework_starburst_cropped.png)
 
 #### Custom Algorithm Trajectories
 I used trigonometry to direct the trajectories of each pellet over hundreds of iterations to create custom animations with vanilla JavaScript.
 
 ```
 let fade = 0;
-let magnitude = 1; //this appears to only be used on the first iteration
+let magnitude = 1;
 let gravity = -1;
 let counter = 0;
 let numIterations = 300;
@@ -35,7 +35,7 @@ let z = setInterval(function(){
         let changeY = 0;
         let divisor = 20;
 
-        let angleGroup = (i % divisor);  remain in the same group through all intervals b/c based on i
+        let angleGroup = (i % divisor);  
 
         if (true) {
           let theta = (angleGroup * 2 * Math.PI / divisor);
