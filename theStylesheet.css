@@ -33,7 +33,7 @@
  .muting {
    position: absolute;
    top: 25px;
-   right: 25px;
+   right: 35px;
    cursor: pointer;
    z-index: 300;
  }
