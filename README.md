@@ -42,37 +42,30 @@ let z = setInterval(function(){
 
           changeX = magnitude * Math.cos(theta);
           changeY = magnitude * Math.sin(theta);
-
-          if (theta === 0 || theta === Math.PI) {
-            changeY += 15;
-          }
-
-          if (theta === (Math.PI / 2) || theta === (3 * Math.PI / 2)) {
-            changeY += 15;
-          }
-
+        }
 ```
 ...
+
 ```
-magnitude += 5;
-gravity += 2;
-counter++;
-if (fade < 1){
-  fade += (0.02);
-}
+    magnitude += 5;
+    gravity += 2;
+    counter++;
 
-if(counter === (numIterations * 0.19)) {
-  fireContext.fillStyle = "rgba(0, 0, 0, 0.3)";
-  fireContext.clearRect(0, 0, fireCanvas.width, fireCanvas.height);
-}
+    if (fade < 1){
+      fade += (0.02);
+    }
 
-if(counter === numIterations) {
-    clearInterval(z);
-}
+    if(counter === (numIterations * 0.19)) {
+      fireContext.fillStyle = "rgba(0, 0, 0, 0.3)";
+      fireContext.clearRect(0, 0, fireCanvas.width, fireCanvas.height);
+    }
+
+    if(counter === numIterations) {
+        clearInterval(z);
+    }
 
 }, 20);
 
-}
 ```
 
 #### Intuitive Instructions
