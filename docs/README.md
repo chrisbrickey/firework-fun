@@ -1,4 +1,4 @@
-## Firework-Fun
+## Firework-Fun - development README
 
 ### How to run this program
 
@@ -11,7 +11,8 @@
 
 ##### During Production: use the 'public' directory
 - `rackup` runs the program locally from the 'public' directory
-- `heroku local web` runs the program locally using heroku settings
+- From git master branch, `git push heroku master` to push changes to heroku
+- Heroku app name: tranquil-waters-60122
 - To view hosted version via custom domain: http://www.firework-fun.com
 
 ### Background
