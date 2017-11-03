@@ -3,14 +3,15 @@
 ### How to run this program
 
 ##### During Development: use the 'lib' directory at the top level
-- Open root directory in the terminal and type the command: `webpack --watch`
+- Move webpack.config.js to root level
+- In package.json, replace "start" script with `"postinstall": "webpack --watch"`, ...OR...open root directory in the terminal and type the command: `webpack --watch`
 - To run locally: Drag/drop the top-level file called `index.html` into the browser
 - Move `index.html` to the top-level during development. You may need to alter some of the file path references during development because `index.html` and sound files are placed at different points in the file structure for development vs production.
 - Make changes to the JS files within the /lib directory at the top level (not within the 'public folder').  Webpack will automatically adjust the bundle.js and bundle.js.map files in the /lib directory to reflect changes.
 - When ready to transition to production, replace bundle.js and bundle.map.js in the /public/js directory with those from the top-level /lib directory (that you just altered). Don't forget to
 
 ##### During Production: use the 'public' directory
-- `rackup` runs the program locally from the 'public' directory
+- `node server.js` runs the program locally from the 'public' directory
 - From git master branch, `git push heroku master` to push changes to heroku
 - Heroku app name: tranquil-waters-60122
 - To view hosted version via custom domain: http://www.firework-fun.com
