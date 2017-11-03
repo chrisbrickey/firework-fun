@@ -1,7 +1,7 @@
 {
-  "name": "custom-fireworks3",
+  "name": "firework-fun",
   "version": "1.0.0",
-  "description": "vanilla javascript game with trigonometric algorithms",
+  "description": "Node/JS game with custom animations based ontrigonometric algorithms",
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
