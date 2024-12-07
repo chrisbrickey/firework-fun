@@ -89,8 +89,8 @@ Fireworks-Fun is a single-page web application that mimics physics with low reli
 - [View Wireframes][wireframes]
 - [Development README][READMEdev]
 
-[wireframes]: docs/wireframes
-[READMEdev]: docs/README.md
+[wireframes]: development/wireframes
+[READMEdev]: development/README.md
 
 ## Future Development
 
